@@ -1,27 +1,33 @@
 .header {
-}
-
-.maker {
-	padding-top: 5em;
-	background-color: #42b94d;
-	color: white;
-}
-
-.links {
-	text-align: center;
-	margin-top: 5em;
-	padding-bottom: 10em;
+	
 }
 
 .name {
-	text-align: center;
 	margin-top: 10%;
+	text-align: center;
 	font-weight: bold;
 }
 
 .title {
 	text-align: center;
-	margin-bottom: 10%;
+	color: #F76935;
+	margin-bottom: 20%;
+}
+
+.forest {
+	margin-top: 10%;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.right {
+	border-top: 1px solid #E3E3E3;
 }
 
 .left-one {
@@ -32,16 +38,23 @@
 	background-color: #E3E3E3;
 }
 
+.left-three {
+	border-right: 1px solid #E3E3E3;
+}
+
+.left-four {
+	background-color: #f9e58d;
+}
+
 .img-responsive {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	max-width: 70%;, height: 70%;
 }
 
-.right {
-	
+.project-title {
+	padding-top: 1em;
 }
-
 .right h1 {
 	text-align: center;
 	margin-top: -.5em;
@@ -49,6 +62,8 @@
 
 .content {
 	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
 	text-align: center;
 	font-size: 1.5em;
 }
