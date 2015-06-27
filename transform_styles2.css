@@ -1,0 +1,300 @@
+/*.raindrop1 {
+	background-color: blue;
+	margin-top: -40px;
+	width: 8px;
+	opacity: .8;
+	height: 20px;
+	list-style: none;
+	animation: rain 45s infinite;
+}
+*/
+
+.hidden {
+	display: none;
+}
+
+.tree {
+	margin-left: 25%;
+	position: relative;
+	margin-top: 10%;
+}
+
+.box {
+	float: left;
+	margin-left: 28.5%;
+  margin-top: 60%;
+	width: 10em;
+	height: 10em;
+	border: 2px solid black;
+}
+
+.seed {
+	background-color: brown;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 4em;
+  position: relative;
+  border-radius: 50%;
+}
+
+.trunk {
+  background-color: #af6b16;
+  position: absolute;
+  width: 22px;
+  height: 100px;
+  margin-left: 96px;
+  margin-top: 450px;
+  transform: scaleY(5.5);
+  -webkit-transform: scaleY(5.5); ;
+  -moz-transform: scaleY(5.5); ;
+  transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;;
+  animation: trunk 1s ease-in-out;
+}
+
+.branch1 {
+	position: absolute;
+	background-color: green;
+  margin-left: 100px;
+	width: 14px;
+	height: 20px;
+	opacity: .7;
+	border-bottom-right-radius: 150%;
+	transform: rotate(-40deg) scaleY(9);
+  -webkit-transform: rotate(-40deg) scaleY(9);
+  -moz-transform: rotate(-40deg) scaleY(9);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  animation: rightBranch1 ease-in-out 2s 1s;
+  animation-fill-mode: backwards;
+}
+
+.branch2 {
+	position: absolute;
+	background-color: green;
+  margin-left: 100px;
+  opacity: .7;
+	width: 14px;
+	height: 20px;
+	border-bottom-left-radius: 150%;
+  transform: rotate(40deg) scaleY(9);
+  -webkit-transform: rotate(40deg) scaleY(9);
+  -moz-transform: rotate(40deg) scaleY(9);
+  transform-origin: top right;
+  -webkit-transform-origin: top right;
+  -moz-transform-origin: top right;
+  animation: leftBranch1 ease-in-out 2s 1s;
+  animation-fill-mode: backwards;
+}
+
+.branch3 {
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 15%;
+	width: 14px;
+	height: 20px;
+	position: absolute;
+	opacity: .7;
+	border-bottom-right-radius: 150%;
+	transform: rotate(-40deg) scaleY(11);
+  -webkit-transform: rotate(-40deg) scaleY(11);
+  -moz-transform:    rotate(-40deg) scaleY(11);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  animation: rightBranch2 ease-in-out 2s 1.3s;
+  animation-fill-mode: backwards;
+}
+
+.branch4 {
+	position: absolute;
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 15%;
+  opacity: .7;
+	width: 14px;
+	height: 20px;
+	border-bottom-left-radius: 150%;
+  transform: rotate(40deg) scaleY(11);
+  -webkit-transform: rotate(40deg) scaleY(11);
+  -moz-transform:    rotate(40deg) scaleY(11);
+  transform-origin: top right;
+  -webkit-transform-origin: top right;
+  -moz-transform-origin: top right;
+  animation: leftBranch2 ease-in-out 2s 1.3s;
+  animation-fill-mode: backwards;
+}
+
+.branch5 {
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 32%;
+	width: 14px;
+	height: 20px;
+	position: absolute;
+	opacity: .7;
+	border-bottom-right-radius: 150%;
+	transform: rotate(-40deg) scaleY(13);
+  -webkit-transform: rotate(-40deg) scaleY(13);
+  -moz-transform:    rotate(-40deg) scaleY(13);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  animation: rightBranch3 ease-in 1.5s 1.6s;
+  animation-fill-mode: backwards;
+}
+
+.branch6 {
+	position: absolute;
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 32%;
+  opacity: .7;
+	width: 14px;
+	height: 20px;
+	border-bottom-left-radius: 150%;
+  transform: rotate(40deg) scaleY(13);
+  -webkit-transform: rotate(40deg) scaleY(13);
+  -moz-transform:    rotate(40deg) scaleY(13);
+  transform-origin: top right;
+  -webkit-transform-origin: top right;
+  -moz-transform-origin: top right;
+  animation: leftBranch3 ease-in 1.5s 1.6s;
+  animation-fill-mode: backwards;
+}
+
+.branch7 {
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 50%;
+	width: 14px;
+	height: 20px;
+	position: absolute;
+	opacity: .7;
+	border-bottom-right-radius: 150%;
+	transform: rotate(-40deg) scaleY(14);
+  -webkit-transform: rotate(-40deg) scaleY(14);
+  -moz-transform:    rotate(-40deg) scaleY(14);
+  transform-origin: top left;
+    -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  animation: rightBranch4 ease-in 1.5s 1.8s;
+  animation-fill-mode: backwards;
+}
+
+.branch8 {
+	position: absolute;
+	background-color: green;
+  margin-left: 100px;
+  margin-top: 50%;
+  opacity: .7;
+	width: 14px;
+	height: 20px;
+	border-bottom-left-radius: 150%;
+  transform: rotate(40deg) scaleY(14);
+  -webkit-transform: rotate(40deg) scaleY(14);
+  -moz-transform:    rotate(40deg) scaleY(14);
+  transform-origin: top right;
+  -webkit-transform-origin: top right;
+  -moz-transform-origin: top right;
+  animation: leftBranch4 ease-in 1.5s 1.8s;
+  animation-fill-mode: backwards;
+}
+
+
+/*.leaf1 {
+	background-color: green;
+	width: 2px;
+	height: 18px;
+	opacity: .8;
+	margin-left: 142px;
+	transform: rotate(90deg);
+  transform-origin: bottom left;
+}
+
+.leaflet1 {
+  position: absolute;
+  background-color: green;
+  width: 2px;
+  height: 10px;
+  opacity: .8;
+  margin-top: -8.5px;
+  margin-left: 152px;
+  transform-origin: bottom;
+  transform: rotate(30deg);
+}
+
+.leaflet2 {
+  background-color: green;
+  width: 2px;
+  height: 10px;
+  opacity: .8;
+  margin-left: 152px;
+  margin-top: 1.5px;
+  transform-origin: top;
+  transform: rotate(-30deg);
+}*/
+
+@keyframes trunk {
+  0% {transform: scaleY(0); transform-origin: 100% 100%; }
+  100%{transform: scaleY(5.5); transform-origin: 100% 100%;}
+}
+
+@keyframes rightBranch1 {
+  0% { transform: rotate(-40deg) scaleY(0); transform-origin: top left; }
+  100% { transform: rotate(-40deg) scaleY(9); transform-origin: top left; }
+}
+
+@keyframes leftBranch1 {
+  0% { transform: rotate(40deg) scaleY(0); transform-origin: top right; }
+  100% { transform: rotate(40deg) scaleY(9); transform-origin: top right; }
+}
+
+@keyframes rightBranch2 {
+  0% { transform: rotate(-40deg) scaleY(0); transform-origin: top left; }
+  100% { transform: rotate(-40deg) scaleY(9); transform-origin: top left; }
+}
+
+@keyframes leftBranch2 {
+  0% { transform: rotate(40deg) scaleY(0); transform-origin: top right; }
+  100% { transform: rotate(40deg) scaleY(11); transform-origin: top right; }
+}
+
+@keyframes rightBranch2 {
+  0% { transform: rotate(-40deg) scaleY(0); transform-origin: top left; }
+  100% { transform: rotate(-40deg) scaleY(11); transform-origin: top left; }
+}
+
+@keyframes rightBranch3 {
+  0% { transform: rotate(-40deg) scaleY(0); transform-origin: top left; }
+  100% { transform: rotate(-40deg) scaleY(13); transform-origin: top left; }
+}
+
+@keyframes leftBranch3 {
+  0% { transform: rotate(40deg) scaleY(0); transform-origin: top right; }
+  100% { transform: rotate(40deg) scaleY(13); transform-origin: top right; }
+}
+
+@keyframes rightBranch4 {
+  0% { transform: rotate(-40deg) scaleY(0); transform-origin: top left; }
+  100% { transform: rotate(-40deg) scaleY(14); transform-origin: top left; }
+}
+
+@keyframes leftBranch4 {
+  0% { transform: rotate(40deg) scaleY(0); transform-origin: top right; }
+  100% { transform: rotate(40deg) scaleY(14); transform-origin: top right; }
+}
+
+@keyframes leaves {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes rain {
+	50% { transform: translateY(100%) }
+	100% { transform: translateY(100%) }
+}

@@ -1,0 +1,114 @@
+.trunk {
+  background-color: #af6b16;
+  margin-top: 96px;
+  margin-bottom: 200px;
+  margin-left: 300px;
+  height: 125px;
+  width: 8px;
+  opacity: 1;
+  transform: scaleY(4); transform-origin: 100% 100%;
+  animation: none 2s;
+}
+
+.leaf1 {
+	background-color: green;
+	width: 5px;
+	height: 10px;
+	margin-left: 200px;
+}
+
+.leaf2 {
+	background-color: green;
+	width: 5px;
+	height: 10px;
+	margin-left: 200px;
+}
+
+.branch1 {
+	background-color: green;
+  margin-left: 300px;
+	width: 5px;
+	height: 10px;
+	opacity: 0%;
+	position: relative;
+	border-top-right-radius: 70%;
+	transform: rotate(150deg) scaleY(12);
+  transform-origin: 30% 106%;
+  animation: leaves 2s;
+}
+
+.branch2 {
+	background-color: green;
+  margin-left: 300px;
+	width: 5px;
+	height: 10px;
+	border-top-right-radius: 70%;
+	transform: rotate(-150deg) scaleY(12);
+  transform-origin: 50% 98%;
+  animation: leaves 2s;
+}
+
+.branch3 {
+	background-color: green;
+	margin-top: 125px;
+  margin-left: 300px;
+	width: 5px;
+	height: 10px;
+	border-top-right-radius: 70%;
+	transform: rotate(-148deg) scaleY(17);
+  transform-origin: 50% 98%;
+  animation: leaves 2s;
+}
+
+.branch4 {
+	background-color: green;
+	margin-top: -20px;
+  margin-left: 300px;
+	width: 5px;
+	height: 10px;
+	opacity: 0%;
+	border-top-right-radius: 70%;
+	transform: rotate(148deg) scaleY(17);
+  transform-origin: 30% 104%;
+  animation: leaves 2s;
+}
+
+.branch5 {
+	background-color: green;
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 5px;
+  height: 10px;
+  border-top-right-radius: 70%;
+  transform: rotate(-140deg) scaleY(20);
+  transform-origin: 50% 99%;
+  animation: leaves 2s;
+}
+
+.branch6 {
+	background-color: green;
+  margin-top: -20px;
+  margin-left: 298px;
+  width: 5px;
+  height: 10px;
+  opacity: 0%;
+  border-top-right-radius: 70%;
+  transform: rotate(140deg) scaleY(20);
+  transform-origin: 30% 104%;
+  animation: leaves 2s;
+}
+  
+@keyframes grow {
+  0% {transform: scaleY(0); transform-origin: 100% 100%; }
+  100%{transform: scaleY(4); transform-origin: 100% 100%;}
+}
+
+@keyframes branch1 {
+  0% {transform: scaleY(0) transform-origin: 30% 106% rotate(150deg) }
+  100% {transform: scaleY(12) transform-origin: 30% 106%; rotate(150deg)}
+}
+
+@keyframes leaves {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
