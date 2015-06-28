@@ -12,27 +12,25 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="row header">
-      <div class="col-md-12 name"><h1>Tobias Kahn</h1></div>
-      <div class="col-md-12 title"><h3>Product Manager, Web Developer</h3></div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="tree-container">
-          <div class="pre_trunk"></div>
-          <div class="pre_branch1"></div>
-          <div class="branch1b"></div>
-          <div class="pre_branch2"></div>
-          <div class="pre_branch3"></div>
-          <div class="pre_branch4"></div>
-          <div class="pre_branch5"></div>
-          <div class="pre_branch6"></div>
-          <div class="pre_branch7"></div>
-          <div class="pre_branch8"></div>
-          <div class="invisible">Highlight and you shall find.</div>
-        </div>
+    <div class="topbar">
+      <div class='topbar-container'>
+        <div class="topbar-item contact-topbar"><a href="#contact">Contact</a></div>
+        <div class="topbar-item blog"><a href="https://medium.com/@tobitronkahn" target="_blank">Blog</a></div>
       </div>
-       <div class="seed"></div>
+    </div>
+
+    <div class="row header" id="header">
+      <div class="col-md-12 name"><h1>Tobias Kahn</h1></div>
+      <div class="col-md-12 title" id="title"><h3>Product Manager, Web Developer</h3></div>
+    </div>
+
+    <div class="row contact" id="contact">
+      <div class="icon-container">
+        <div class="icon col-sm-3 email"><a href="mailto:tobiasbkahn@gmail.com" target="_blank"><img src="images/Close_envelope.png"></a></img></div>
+        <div class="icon col-sm-3 twitter"><a href="http://www.twitter.com/tobitronkahn" target="_blank"><img src="images/Twitter_Logo.png"></a></div>
+        <div class="icon col-sm-3 github"><a href="http://www.github.com/tobitron" target="_blank"><img src="images/Github_Big_Logo_128.png"></a></div>
+        <div class="icon col-sm-3 linkedin"><a href="http://www.linkedin.com/in/tobiaskahn" target="_blank"><img src="images/Linkedin_Big_Logo_128.png"></a></div>
+      </div>
     </div>
 
     <div class="row">
@@ -94,8 +92,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
     <script src="js/tobias.js"></script>
     <script>
+
+    $(document).ready(function(){
+      $(".topbar").sticky({topSpacing:0});
+    });
+
     $('.seed').click( function() {
       $('.seed').toggleClass('hidden')
       $('.pre_trunk').toggleClass('trunk');
